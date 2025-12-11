@@ -1,0 +1,72 @@
+{
+  "id": "tile",
+  "name": "Tile",
+  "description": "Minimal layout with a icon and steps count.",
+  "creator": {
+    "name": "WhirlWolf",
+    "contact": "https://t.me/android_automation_group"
+  },
+  "type": "Tile",
+  "size": "1x2",
+  "version": "1.0",
+  "preview": "",
+  "features": [
+    "minimal",
+    "simple"
+  ],
+  "date_created": "2025-08-22",
+  "date_updated": "2025-12-12",
+  "min_project_version": "1.0.20251212",
+  "min_tasker_version": "6.4-stable",
+  "defaults": {
+    "text_size_count": "22",
+    "icon_size": "16"
+  },
+  "structure": {
+    "children": [
+      {
+        "contentScale": "Fit",
+        "url": "%steps.style.icon",
+        "command": "steps=:=icon",
+        "commandPrefix": "HD",
+        "cornerRadius": "%steps.style.corner_radius",
+        "isWeighted": false,
+        "padding": {
+          "top": 5,
+          "bottom": 5,
+          "start": 15,
+          "end": 10
+        },
+        "size": "%steps.style.icon_size",
+        "type": "Image",
+        "useMaterialYouColors": true
+      },
+      {
+        "align": "Left",
+        "bold": true,
+        "color": "%steps.style.text_color_count",
+        "fontFamily": "%steps.style.font_family",
+        "text": "%steps.count",
+        "textSize": "%steps.style.text_size_count",
+        "isWeighted": true,
+        "padding": {
+          "top": 10,
+          "bottom": 10,
+          "end": 10
+        },
+        "type": "Text"
+      }
+    ],
+    "horizontalAlignment": "Center",
+    "verticalAlignment": "Center",
+    "backgroundColor": "%steps.style.background_color",
+    "cornerRadius": "%steps.style.corner_radius",
+    "isWeighted": true,
+    "size": {
+      "height": 50,
+      "width": 140
+    },
+    "type": "Row",
+    "useMaterialYouColors": true
+  }
+}
