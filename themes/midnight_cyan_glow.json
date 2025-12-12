@@ -1,44 +1,43 @@
 {
-    "id": "midnight_cyan_glow",
-    "name": "Midnight Cyan Glow",
-    "description": "A dark, high-contrast theme.",
-    "creator": {
-        "name": "WhirlWolf",
-        "contact": "https://t.me/android_automation_group"
-    },
-    "type": "Dark",
-    "features": ["high-contrast"],
-    "version": "1.0",
-    "preview": "android.resource://net.dinglisch.android.taskerm/drawable/mw_maps_directions_walk",
-    "date_created": "2025-05-29",
-    "date_updated": "2025-12-25",
-    "min_project_version": "1.0.20251225",
-    "min_tasker_version": "6.4-stable",
-    "style": {
-        "font_primary": "Monospace",
-        "font_secondary": "Monospace",
-        "image": "android.resource://net.dinglisch.android.taskerm/drawable/mw_maps_directions_walk",
-        "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_maps_directions_walk",
-        "corner_radius": "35",
-        "background_color": "#FF0E0B23",
-        "background_color_icon": "#FF0E0B23",
-        "color_accent": "#FF45CFFF",
-        "color_divider": "#FF9A99AF",
-        "color_outline": "#FF9A99AF",
-        "color_highlight": "#FF45CFFF",
-
-        "color_bar_primary": "#FF1A172F",
-        "color_bar_secondary": "#FF131026",
-        "color_bar_tertiary": "#FF0E0B23",
-
-        "text_color_primary": "#FFFFFF",
-        "text_color_secondary": "#FF9A99AF",
-        "text_color_tertiary": "#FF9A99AF",
-
-        "text_size_primary": "40",
-        "text_size_secondary": "20",
-        "text_size_tertiary": "14",
-
-        "icon_size": "42"
-    }
+  "id": "midnight_cyan_glow",
+  "name": "Midnight Cyan Glow",
+  "description": "A dark, high-contrast theme.",
+  "creator": {
+    "name": "WhirlWolf",
+    "contact": "https://t.me/android_automation_group"
+  },
+  "type": "Dark",
+  "features": [
+    "high-contrast"
+  ],
+  "version": "1.0",
+  "preview": "android.resource://net.dinglisch.android.taskerm/drawable/mw_maps_directions_walk",
+  "date_created": "2025-05-29",
+  "date_updated": "2025-12-25",
+  "min_project_version": "1.0.20251225",
+  "min_tasker_version": "6.4-stable",
+  "style": {
+    "font_primary": "Monospace",
+    "font_secondary": "Monospace",
+    "image": "android.resource://net.dinglisch.android.taskerm/drawable/mw_maps_directions_walk",
+    "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_maps_directions_walk",
+    "corner_radius": "35",
+    "background_color": "#FF0E0B23",
+    "background_color_icon": "#FF0E0B23",
+    "color_accent": "#FF45CFFF",
+    "color_divider": "#FF9A99AF",
+    "color_outline": "#FF9A99AF",
+    "color_highlight": "#FF45CFFF",
+    "color_progress": "",
+    "color_bar_primary": "#FF1A172F",
+    "color_bar_secondary": "#FF131026",
+    "color_bar_tertiary": "#FF0E0B23",
+    "text_color_primary": "#FFFFFF",
+    "text_color_secondary": "#FF9A99AF",
+    "text_color_tertiary": "#FF9A99AF",
+    "text_size_primary": "40",
+    "text_size_secondary": "20",
+    "text_size_tertiary": "14",
+    "icon_size": "42"
+  }
 }
