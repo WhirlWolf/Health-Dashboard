@@ -1,17 +1,17 @@
 {
     "id": "midnight_cyan_glow",
     "name": "Midnight Cyan Glow",
-    "description": "A dark, high-contrast theme inspired by the StepsApp 4x4 value card.",
+    "description": "A dark, high-contrast theme.",
     "creator": {
         "name": "WhirlWolf",
         "contact": "https://t.me/android_automation_group"
     },
     "type": "Dark",
-    "features": ["fixed-colors"],
+    "features": ["high-contrast"],
     "version": "1.0",
     "preview": "android.resource://net.dinglisch.android.taskerm/drawable/mw_maps_directions_walk",
     "date_created": "2025-05-29",
-    "date_updated": "2025-12-12",
+    "date_updated": "2025-12-25",
     "min_project_version": "1.0.20251225",
     "min_tasker_version": "6.4-stable",
     "style": {
