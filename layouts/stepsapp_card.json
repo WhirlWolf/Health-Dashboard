@@ -1,0 +1,100 @@
+{
+  "id": "stepsapp_card",
+  "name": "Stepsapp Card",
+  "description": "Card layout with a circular progress, icon and steps count.",
+  "creator": {
+    "name": "WhirlWolf",
+    "contact": "https://t.me/android_automation_group"
+  },
+  "metric": "Steps",
+  "type": "Card",
+  "size": "2x2",
+  "version": "1.0",
+  "preview": "",
+  "features": [
+    "minimal",
+    "simple"
+  ],
+  "date_created": "2025-05-29",
+  "date_updated": "2025-12-25",
+  "min_project_version": "1.0.20251225",
+  "min_tasker_version": "6.4-stable",
+  "defaults": {
+    "text_size_primary": "22",
+    "icon_size": "16"
+  },
+  "structure": {
+    "children": [
+      {
+        "children": [
+          {
+            "barWidth": 23,
+            "color": "%steps.style.color_progress",
+            "progress": "%steps.progress",
+            "progressType": "Circle",
+            "text": " ",
+            "trackColor": "%steps.style.text_color_secondary",
+            "isWeighted": true,
+            "size": "fill",
+            "type": "Progress",
+            "useMaterialYouColors": true
+          },
+          {
+            "circle": false,
+            "contentScale": "Fit",
+            "url": "%steps.style.icon",
+            "command": "steps=:=icon",
+            "commandPrefix": "HD",
+            "cornerRadius": 100,
+            "isWeighted": true,
+            "size": "%steps.style.icon_size",
+            "type": "Image",
+            "useMaterialYouColors": true
+          }
+        ],
+        "horizontalAlignment": "Center",
+        "verticalAlignment": "Center",
+        "backgroundColor": "#00000000",
+        "cornerRadius": 100,
+        "isWeighted": true,
+        "size": 75,
+        "type": "Box",
+        "useMaterialYouColors": true
+      },
+      {
+        "bold": true,
+        "color": "%steps.style.text_color_primary",
+        "fontFamily": "%steps.style.font_primary",
+        "text": "%steps.count",
+        "textSize": "%steps.style.text_size_primary",
+        "isWeighted": false,
+        "padding": {
+          "top": 5
+        },
+        "size": {
+          "height": 55
+        },
+        "type": "Text"
+      },
+      {
+        "bold": true,
+        "color": "%steps.style.text_color_secondary",
+        "fontFamily": "%steps.style.font_primary",
+        "text": "Steps",
+        "textSize": "%steps.style.text_size_secondary",
+        "isWeighted": false,
+        "type": "Text",
+        "useMaterialYouColors": true
+      }
+    ],
+    "horizontalAlignment": "Start",
+    "verticalAlignment": "Center",
+    "backgroundColor": "%steps.style.background_color",
+    "cornerRadius": "%steps.style.corner_radius",
+    "isWeighted": true,
+    "padding": 20,
+    "size": 200,
+    "type": "Column",
+    "useMaterialYouColors": true
+  }
+}
