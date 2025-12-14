@@ -6,7 +6,7 @@
     "name": "WhirlWolf",
     "contact": "https://t.me/android_automation_group"
   },
-  "metric": "Steps",
+  "metric": "steps",
   "type": "Tile",
   "size": "1x2",
   "version": "1.0",
