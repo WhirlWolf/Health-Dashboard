@@ -20,8 +20,8 @@
   "min_project_version": "1.0.20251225",
   "min_tasker_version": "6.4-stable",
   "defaults": {
-    "text_size_primary": "22",
-    "icon_size": "16"
+    "text_size_primary": "20",
+    "icon_size": "48"
   },
   "structure": {
     "children": [
