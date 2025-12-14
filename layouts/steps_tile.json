@@ -28,7 +28,7 @@
       {
         "contentScale": "Fit",
         "url": "%steps.style.icon",
-        "command": "steps=:=icon",
+        "command": "%par1=:=icon",
         "commandPrefix": "HD",
         "cornerRadius": "%steps.style.corner_radius",
         "isWeighted": false,
