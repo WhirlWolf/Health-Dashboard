@@ -27,10 +27,10 @@
     "children": [
       {
         "contentScale": "Fit",
-        "url": "%steps.style.icon",
+        "url": "%icon",
         "command": "%par1=:=icon",
         "commandPrefix": "HD",
-        "cornerRadius": "%steps.style.corner_radius",
+        "cornerRadius": "%corner_radius",
         "isWeighted": false,
         "padding": {
           "top": 5,
@@ -38,17 +38,17 @@
           "start": 15,
           "end": 10
         },
-        "size": "%steps.style.icon_size",
+        "size": "%icon_size",
         "type": "Image",
         "useMaterialYouColors": true
       },
       {
         "align": "Left",
         "bold": true,
-        "color": "%steps.style.text_color_primary",
-        "fontFamily": "%steps.style.font_primary",
-        "text": "%steps.count",
-        "textSize": "%steps.style.text_size_primary",
+        "color": "%text_color_primary",
+        "fontFamily": "%font_primary",
+        "text": "%count",
+        "textSize": "%text_size_primary",
         "isWeighted": true,
         "padding": {
           "top": 10,
@@ -60,8 +60,8 @@
     ],
     "horizontalAlignment": "Center",
     "verticalAlignment": "Center",
-    "backgroundColor": "%steps.style.background_color",
-    "cornerRadius": "%steps.style.corner_radius",
+    "backgroundColor": "%background_color",
+    "cornerRadius": "%corner_radius",
     "isWeighted": true,
     "size": {
       "height": 50,
