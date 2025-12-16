@@ -28,16 +28,12 @@
     "color_divider": "#FF9A99AF",
     "color_outline": "#FF9A99AF",
     "color_highlight": "#FF45CFFF",
-    "color_progress": "",
+    "color_progress": "FF45CFF",
     "color_bar_primary": "#FF1A172F",
     "color_bar_secondary": "#FF131026",
     "color_bar_tertiary": "#FF0E0B23",
     "text_color_primary": "#FFFFFF",
     "text_color_secondary": "#FF9A99AF",
-    "text_color_tertiary": "#FF9A99AF",
-    "text_size_primary": "40",
-    "text_size_secondary": "20",
-    "text_size_tertiary": "14",
-    "icon_size": "42"
+    "text_color_tertiary": "#FF9A99AF"
   }
 }
