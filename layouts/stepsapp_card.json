@@ -6,7 +6,7 @@
     "name": "WhirlWolf",
     "contact": "https://t.me/android_automation_group"
   },
-  "metric": "Steps",
+  "metric": "steps",
   "type": "Card",
   "size": "2x2",
   "version": "1.0",
@@ -29,11 +29,11 @@
         "children": [
           {
             "barWidth": 23,
-            "color": "%steps.style.color_progress",
-            "progress": "%steps.progress",
+            "color": "%color_progress",
+            "progress": "%progress",
             "progressType": "Circle",
             "text": " ",
-            "trackColor": "%steps.style.text_color_secondary",
+            "trackColor": "%text_color_secondary",
             "isWeighted": true,
             "size": "fill",
             "type": "Progress",
@@ -42,12 +42,12 @@
           {
             "circle": false,
             "contentScale": "Fit",
-            "url": "%steps.style.icon",
+            "url": "%icon",
             "command": "steps=:=icon",
             "commandPrefix": "HD",
             "cornerRadius": 100,
             "isWeighted": true,
-            "size": "%steps.style.icon_size",
+            "size": "%icon_size",
             "type": "Image",
             "useMaterialYouColors": true
           }
@@ -63,10 +63,10 @@
       },
       {
         "bold": true,
-        "color": "%steps.style.text_color_primary",
-        "fontFamily": "%steps.style.font_primary",
-        "text": "%steps.count",
-        "textSize": "%steps.style.text_size_primary",
+        "color": "%text_color_primary",
+        "fontFamily": "%font_primary",
+        "text": "%count",
+        "textSize": "%text_size_primary",
         "isWeighted": false,
         "padding": {
           "top": 5
@@ -78,10 +78,10 @@
       },
       {
         "bold": true,
-        "color": "%steps.style.text_color_secondary",
-        "fontFamily": "%steps.style.font_primary",
+        "color": "%text_color_secondary",
+        "fontFamily": "%font_primary",
         "text": "Steps",
-        "textSize": "%steps.style.text_size_secondary",
+        "textSize": "%text_size_secondary",
         "isWeighted": false,
         "type": "Text",
         "useMaterialYouColors": true
@@ -89,8 +89,8 @@
     ],
     "horizontalAlignment": "Start",
     "verticalAlignment": "Center",
-    "backgroundColor": "%steps.style.background_color",
-    "cornerRadius": "%steps.style.corner_radius",
+    "backgroundColor": "%background_color",
+    "cornerRadius": "%corner_radius",
     "isWeighted": true,
     "padding": 20,
     "size": 200,
