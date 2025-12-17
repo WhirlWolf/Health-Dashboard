@@ -21,7 +21,8 @@
   "min_tasker_version": "6.4-stable",
   "defaults": {
     "text_size_primary": "20",
-    "icon_size": "48"
+    "icon_size": "48",
+    "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_maps_directions_walk"
   },
   "structure": {
     "children": [
