@@ -1,0 +1,39 @@
+{
+  "id": "material_you",
+  "name": "Material You",
+  "description": "A translucent, system-aware material theme with soft contrast and layered surfaces.",
+  "creator": {
+    "name": "WhirlWolf",
+    "contact": "https://t.me/android_automation_group"
+  },
+  "type": "Material You",
+  "features": [
+    "dynamic"
+  ],
+  "version": "1.0",
+  "preview": "android.resource://net.dinglisch.android.taskerm/drawable/mw_action_event",
+  "date_created": "2025-12-17",
+  "date_updated": "2025-12-17",
+  "min_project_version": "2.0.20251225",
+  "min_tasker_version": "6.4-stable",
+  "style": {
+    "font_primary": "SansSerif",
+    "font_secondary": "SansSerif",
+    "image": "android.resource://net.dinglisch.android.taskerm/drawable/mw_action_event",
+    "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_icon",
+    "corner_radius": "30",
+    "background_color": "surface",
+    "background_color_icon": "surfaceVariant",
+    "color_accent": "primaryContainer",
+    "color_divider": "outline",
+    "color_outline": "outline",
+    "color_highlight": "secondaryContainer",
+    "color_progress": "tertiary",
+    "color_bar_primary": "surface",
+    "color_bar_secondary": "surfaceVariant",
+    "color_bar_tertiary": "inverseSurface",
+    "text_color_primary": "onSurface",
+    "text_color_secondary": "onSurfaceVariant",
+    "text_color_tertiary": "onPrimaryContainer"
+  }
+}
