@@ -20,7 +20,6 @@
     "font_primary": "SansSerif",
     "font_secondary": "SansSerif",
     "image": "android.resource://net.dinglisch.android.taskerm/drawable/mw_action_event",
-    "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_icon",
     "corner_radius": "30",
     "background_color": "surface",
     "background_color_icon": "surfaceVariant",
