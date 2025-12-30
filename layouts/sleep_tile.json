@@ -1,0 +1,73 @@
+{
+  "id": "tile",
+  "name": "Tile",
+  "description": "Minimal layout with a icon and sleep total.",
+  "creator": {
+    "name": "WhirlWolf",
+    "contact": "https://t.me/android_automation_group"
+  },
+  "metric": "sleep",
+  "type": "Tile",
+  "size": "1x2",
+  "version": "1.0",
+  "preview": "",
+  "features": [
+    "minimal",
+    "simple"
+  ],
+  "date_created": "2025-05-29",
+  "date_updated": "2025-12-30",
+  "min_project_version": "1.0.20260114",
+  "min_tasker_version": "6.4-stable",
+  "defaults": {
+    "text_size_primary": "20",
+    "icon_size": "48",
+    "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_av_snooze"
+  },
+  "structure": {
+    "children": [
+      {
+        "contentScale": "Fit",
+        "url": "%icon",
+        "command": "%par1=:=icon",
+        "commandPrefix": "HD",
+        "cornerRadius": "%corner_radius",
+        "padding": {
+          "top": 5,
+          "bottom": 5,
+          "start": 15,
+          "end": 10
+        },
+        "size": "%icon_size",
+        "type": "Image",
+        "useMaterialYouColors": true
+      },
+      {
+        "align": "Left",
+        "bold": true,
+        "color": "%text_color_primary",
+        "fontFamily": "%font_primary",
+        "text": "%sleep.total",
+        "textSize": "%text_size_primary",
+        "isWeighted": true,
+        "padding": {
+          "top": 10,
+          "bottom": 10,
+          "end": 10
+        },
+        "type": "Text"
+      }
+    ],
+    "horizontalAlignment": "Center",
+    "verticalAlignment": "Center",
+    "backgroundColor": "%background_color",
+    "cornerRadius": 100,
+    "isWeighted": true,
+    "size": {
+      "height": 50,
+      "width": 140
+    },
+    "type": "Row",
+    "useMaterialYouColors": true
+  }
+}
