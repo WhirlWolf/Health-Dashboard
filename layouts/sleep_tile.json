@@ -47,7 +47,7 @@
         "bold": true,
         "color": "%text_color_primary",
         "fontFamily": "%font_primary",
-        "text": "%sleep.total",
+        "text": "%sleep_total",
         "textSize": "%text_size_primary",
         "isWeighted": true,
         "padding": {
