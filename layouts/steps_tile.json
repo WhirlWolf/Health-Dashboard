@@ -1,5 +1,5 @@
 {
-  "id": "tile",
+  "id": "steps_tile",
   "name": "Tile",
   "description": "Minimal layout with a icon and steps count.",
   "creator": {
